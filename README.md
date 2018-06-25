@@ -1,11 +1,10 @@
-#
-# Bitumiza version 0.0.1 release
-#
-# Copyright (c) Bitumiza LLC - www.bitumiza.com
-#
-# Distributed under the GPLv3 software license,
-# See: http://www.gnu.org/licenses/gpl-3.0.txt
-#
+Bitumiza version 0.0.1 release
+
+Copyright (c) Bitumiza LLC - www.bitumiza.com
+
+Distributed under the GPLv3 software license,
+See: http://www.gnu.org/licenses/gpl-3.0.txt
+
 
 Download and install:
 http://www.bitumiza.com/download-node/ (coming soon)
