@@ -14,6 +14,6 @@ printf "\n\ninstallation complete\ncleaning up install files\n"
 rm multichain-1.0.5.tar.gz
 
 printf "\n\ninitializing connection to blockchain\n"
-multichain-1.0.5/multichaind bitumiza@node1.bitumiza.com:6823
+multichain-1.0.5/multichaind bitumiza@node1.bitumiza.com:6823 -daemon
 
 exit 0
