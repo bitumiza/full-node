@@ -1,22 +1,19 @@
 #!/bin/bash
 #Install Multichain 1.0.5 and connect node to Bitumiza blockchain
 
-printf "\n\nmoving to home directory"
-sleep 1s
+printf "\nmoving to home directory"
 cd ~
 
-printf "\n\ndownloading multichain 1.0.5"
-sleep 1s
+printf "\n\ndownloading multichain 1.0.5\n"
 wget https://www.multichain.com/download/multichain-1.0.5.tar.gz
 
-printf "\n\nexpanding multichain-1.0.5.tar.gz"
-sleep 1s
+printf "\n\nexpanding multichain-1.0.5.tar.gz\n"
 tar -xvzf multichain-1.0.5.tar.gz
 
-printf "\n\ninstallation complete\ncleaning up install files"
-sleep 1s
+printf "\n\ninstallation complete\ncleaning up install files\n"
 rm multichain-1.0.5.tar.gz
 
-printf "\n\ninitializing connection to blockchain"
-sleep 1s
-multichain-1.0.5/multichaind bitumiza@173.255.202.86:6823
+printf "\n\ninitializing connection to blockchain\n"
+multichain-1.0.5/multichaind bitumiza@node1.bitumiza.com:6823
+
+exit 0
