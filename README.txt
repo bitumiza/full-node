@@ -30,4 +30,4 @@ CHANGELOG
 ---------
 
 Version 0.0.1 - 25 June 2018 
--N/A
+-Bitumiza blockchain node installation script completed: install.sh
